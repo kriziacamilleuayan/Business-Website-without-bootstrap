@@ -1,0 +1,61 @@
+html, body{
+	margin: 0px;
+	background-color: #e6e6e6;
+}
+
+/*top navbar*/
+nav{
+	padding: 3%;
+	background-color: yellow;
+	border-bottom: 2px solid white;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 2%;
+	color: black;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+img{
+	width: 100%;
+}
+
+.logo{
+}
+
+/*grids*/
+.col-2{
+	float: left;
+	width: 16.66%;
+}
+.col-3{
+	float: left;
+	width: 33.33%;
+}
+.col-6{
+	float: left;
+	width: 50%;
+}
+
+/*container*/
+.container{
+	width: 80%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*panel*/
+.panel{
+	border-bottom: 5px solid lightgray;
+	background-color: white;
+}
+
+.panel-body{
+	margin: 5%;
+}
