@@ -1,12 +1,14 @@
 html, body{
 	margin: 0px;
 	background-color: #e6e6e6;
+		font-family: Arial, Helvetica, sans-serif;
 }
 
 /*top navbar*/
 nav{
 	padding: 3%;
-	background-color: yellow;
+	padding-bottom: 50px;
+	background-color: #fff600;
 	border-bottom: 2px solid white;
 }
 
@@ -18,6 +20,7 @@ nav a{
 
 nav a:hover{
 	text-decoration: underline;
+	color: red;
 }
 
 img{
@@ -25,9 +28,21 @@ img{
 }
 
 .logo{
+	width: 300px;
+	margin-top: -20px;
+}
+/*row*/
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 /*grids*/
+.col-1{
+	float: left;
+	width: 8.33%;
+}
 .col-2{
 	float: left;
 	width: 16.66%;
@@ -35,6 +50,18 @@ img{
 .col-3{
 	float: left;
 	width: 33.33%;
+}
+.col-3-3{
+	float: left;
+	width: 25%;
+}
+.col-4{
+	float: left;
+	width: 33.33%;
+}
+.col-8{
+	float: left;
+	width: 66.66%;
 }
 .col-6{
 	float: left;
@@ -50,12 +77,108 @@ img{
 	margin-right: auto;
 }
 
-/*panel*/
-.panel{
-	border-bottom: 5px solid lightgray;
+/*panel*/ .panel{border-bottom: 5px solid lightgray;
 	background-color: white;
 }
 
-.panel-body{
-	margin: 5%;
+.panel-body{margin: 5%;
+}
+
+.panel-desc{margin: 0px;
+	font-size: 14px;
+}
+
+.arrows{
+	width: 60px !important;
+	height: 60px !important;
+	margin-top: 150px;
+}
+
+.section2{
+	border-top: 2px solid black;
+	background-color: #6b6b6b;
+}
+
+/*color texts*/
+.text-yellow{
+	color: yellow;
+}
+
+.text-white{
+	color: white;
+	line-height: 1.5rem;
+	word-spacing: 5px;
+	text-decoration: none;
+}
+
+.text-black{
+	color: black;
+	line-height: 1.5rem;
+	word-spacing: 5px;
+}
+
+.text-red{
+	font-weight: bold;
+	color: red;
+	word-spacing: 5px;
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+}
+
+.truncate {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.btn-black {
+	color: yellow;
+	background-color: black;
+	padding: 2% 5% 2% 5%;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: auto 0;
+}
+
+.dark-gray{
+	background-color: #1f1f1f;
+	border-top: 5px solid yellow;
+	margin-top: 1px;
+	border-bottom: 1px solid black;
+}
+
+.section4{
+	border-top: 1px solid #3c3c3c;
+	background-color: #3c3c3c;
+}
+
+.input-email{
+	line-height: 1.5rem;
+	margin-top: 5px;
+	border-radius: 2px;
+	width: 250px;
+}
+
+.btn-submit{
+	color: black;
+	background-color: yellow;
+	padding: 8px;
+	border: none;
+	margin-left: -5px;
+	border-radius: 0 10px 10px 0;
+	font-weight: bold;
+}
+
+a .text-white p:hover{
+	text-decoration: underline;
+}
+
+p{
+	font-size: 14px;
+	margin: 0px;
 }
